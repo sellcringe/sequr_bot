@@ -1,0 +1,3 @@
+add .env
+
+install docker
