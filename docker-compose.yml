@@ -1,0 +1,11 @@
+version: "2.17"
+services:
+  bot:
+    build: .
+    command: sh -c "python -m src.bot"
+    env_file:
+      - .env
+    restart: always
+#    environment:
+#      - DOCKER_BUILDKIT=0
+
